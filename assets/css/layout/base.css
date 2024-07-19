@@ -1,0 +1,52 @@
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;  
+  color: inherit;
+}
+
+body {
+  font-family: 
+  /* Cross-platform generic font family (default user interface font) */
+  system-ui,
+  
+  /* Safari for macOS and iOS (San Francisco) */
+  -apple-system,
+  /* Chrome for macOS and iOS */
+  BlinkMacSystemFont,
+  
+  /* Windows */
+  "Segoe UI",
+  "Microsoft JhengHei",
+  
+  /* Android */
+  Roboto,
+  
+  /* older macOS and iOS */
+  "Helvetica Neue",
+  
+  /* Linux */
+  "Noto Sans",
+  "Liberation Sans",
+  
+  /* Basic web fallback */
+  Arial,
+  /* Sans serif fallback */
+  sans-serif,
+  
+  /* Emoji fonts */
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
